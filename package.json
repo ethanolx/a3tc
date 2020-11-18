@@ -1,0 +1,22 @@
+{
+  "name": "a3tc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanolx/a3tc.git"
+  },
+  "author": "Ethan Tan Wee En",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanolx/a3tc/issues"
+  },
+  "homepage": "https://ethanolx.github.io/a3tc",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
