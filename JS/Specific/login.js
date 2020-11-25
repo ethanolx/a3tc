@@ -37,7 +37,7 @@ function signIn() {
 // checks if the terms and conditions are accepted before allowing the user to register
 function checkTCs() {
     if (document.getElementById("tc").checked) {
-        document.getElementById("signup").outerHTML = "<button type=\"submit\" class=\"btn btn-dark\" onmousedown=\"signUp()\" id=\"signup\">Sign Up</button>";
+        document.getElementById("signup").outerHTML = "<button type=\"submit\" class=\"btn btn-dark\" onmousedown=\"signUp()\" ontouchstart=\"signUp()\" id=\"signup\">Sign Up</button>";
     }
     else {
         document.getElementById("signup").outerHTML = "<button type=\"submit\" class=\"btn btn-dark\" id=\"signup\" title=\"Please agree to our Terms & Conditions to proceed\" disabled>Sign Up</button>";
